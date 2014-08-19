@@ -13,14 +13,14 @@ $palettes: (
     base: #3d3834
   ),
   info: (
-    base:     palette(brand),
+    base:     #00b2e2,
     success:  #5BBD72,
-    error:    palette(brand, red),
-    warning:  palette(brand, yellow)
+    error:    #eb0028,
+    warning:  #ffc627
   ),
   button: (
-    primary:   palette(brand),
-    secondary: palette(brand, yellow)
+    primary:   #00b2e2,
+    secondary: #ffc627
   ),
   social : (
     facebook:  #3B579D,
