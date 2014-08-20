@@ -1,6 +1,6 @@
 {
   "name": "bagel-theme-prototype",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "title": "Bagel UI - Prototype Theme",
   "description": "Progress Theme Source for Bagel UI",
   "homepage": "http://goodtwin.co",
@@ -13,8 +13,10 @@
     "type": "git",
     "url": "git://github.com/goodtwin/bagel-theme-prototype.git"
   },
+  "dependencies" : {
+    "bagel-functions" : "git://github.com/goodtwin/bagel-functions.git#v0.1.5"
+  },
   "devDependencies": {
-    "bagel-functions" : "git://github.com/goodtwin/bagel-functions.git#v0.1.5",
     "grunt-shared-config": "https://github.com/goodtwin/grunt-shared-config/archive/1f0a6e12b365ad9bda3e411f2a2cb74683df1d2e.tar.gz",
     "grunt": "~0.4.4",
     "grunt-cli": "~0.1.13",
