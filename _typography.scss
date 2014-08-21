@@ -1,14 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600');
 
 @mixin prototype-font-light {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+	.ui.type.light {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+	}
 }
+
 @mixin prototype-font-regular {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 500;
+	body, .ui.type.regular {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 500;
+	}
 }
+
 @mixin prototype-font-bold {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
+	.ui.type.bold {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 600;
+	}
 }

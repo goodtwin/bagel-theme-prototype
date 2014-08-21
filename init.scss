@@ -1,3 +1,13 @@
 @import "color";
 @import "typography";
 @import "iconset";
+
+@if use-theme(iconset) {
+  @include prototype-theme-iconset;
+}
+
+@if use-theme(font) {
+  @include prototype-font-light;
+  @include prototype-font-regular;
+  @include prototype-font-bold;
+}
